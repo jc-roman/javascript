@@ -1,7 +1,7 @@
 on:
   schedule:
-    - cron:  '*/3 * ? * *'
-    # scheduled at everyday at noon and midnight
+    - cron:  '0 4/12 * * *'
+    # scheduled at everyday at noon and midnight EST
 
 jobs:
   sync_with_upstream:
